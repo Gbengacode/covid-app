@@ -1,0 +1,36 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700&family=Roboto:wght@900&display=swap');
+*,
+*::after,
+*::before {
+  box-sizing: border-box;
+}
+
+
+:root {
+--main: #c5306a;
+--first: #b7225c;
+--second: #cd2365;
+--third: #b71b56;
+--dark: #962c54;
+--white: #fdf9f9; 
+}
+
+
+body {
+  margin: 0;
+  padding: 0;
+  background: var(--main);
+  font-family: 'Lato', sans-serif;
+  
+  
+}
+
+/* --main: #c5306a;
+--first: #b7225c;
+--second: #cd2365;
+--third: #d4457b;
+--dark: #cf4277;
+--white: #fdf9f9; */
+
+
+/* #b42c5f; */
