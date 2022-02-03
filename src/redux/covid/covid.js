@@ -1,10 +1,17 @@
-/* eslint-disable consistent-return */
 import Axios from 'axios';
 
 const FETCH_DATA = 'FETCH_DATA';
 
-const fetchData = (payload) => ({
+const handleError = (payload) => ({
   type: FETCH_DATA,
+  payload,
+
+});
+
+const HANDLE_ERROR = 'HANDLE_ERROR';
+
+const fetchData = (payload) => ({
+  type: HANDLE_ERROR,
   payload,
 
 });
@@ -17,7 +24,7 @@ export const fetchCovidDataApi = (country, date) => async (dispatch) => {
     const covidData = Object.values(info);
     dispatch(fetchData(covidData));
   } catch (error) {
-    return error;
+    dispatch(handleError(error));
   }
 };
 
@@ -25,6 +32,8 @@ const initialState = [];
 const reducer = (state = initialState, action) => {
   switch (action.type) {
     case FETCH_DATA:
+      return action.payload;
+    case HANDLE_ERROR:
       return action.payload;
     default:
       return state;

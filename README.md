@@ -25,7 +25,7 @@ Covid Tracker Application
     - - [Narrativa API](https://covid19tracking.narrativa.com/index_en.html)
 
 ## Demo
-- [live demo] (https://deploy-preview-2--infallible-mccarthy-668a73.netlify.app/)
+- [live demo](https://deploy-preview-2--infallible-mccarthy-668a73.netlify.app/)
 
 ## video demo
 https://www.loom.com/share/9069364c5149416096d9bba96608c045
@@ -52,6 +52,7 @@ To get a local copy up and running follow these simple example steps.
 ### Usage
 
 - You can launch the React app using ```npm start``` on your integrated console
+- You can launch the React Test app using ```npm test``` on your integrated console
 
 ## Author
 
