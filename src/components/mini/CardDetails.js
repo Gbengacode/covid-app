@@ -51,7 +51,7 @@ const CardDetails = () => {
         </Open>
       </RegionContainer>
       <RegionAllContainer>
-        <RegionAllTitle><h3>Region Breakdown</h3></RegionAllTitle>
+        <RegionAllTitle><h3>Region Breakdown -Over All</h3></RegionAllTitle>
         <TotalDeath>
           <h4>Total Number of Death</h4>
           {' '}
