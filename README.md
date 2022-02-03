@@ -26,6 +26,9 @@ Covid Tracker Application
 
 ## Demo
 - [live demo] (https://deploy-preview-2--infallible-mccarthy-668a73.netlify.app/)
+
+## video demo
+https://www.loom.com/share/9069364c5149416096d9bba96608c045
 ## Getting Started
 
 
