@@ -25,7 +25,7 @@ Covid Tracker Application
     - - [Narrativa API](https://covid19tracking.narrativa.com/index_en.html)
 
 ## Demo
-- [live demo] (https://covid-app202.netlify.app)
+- [live demo] (https://deploy-preview-2--infallible-mccarthy-668a73.netlify.app/)
 ## Getting Started
 
 
