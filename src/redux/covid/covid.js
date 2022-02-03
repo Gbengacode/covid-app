@@ -2,7 +2,7 @@ import Axios from 'axios';
 
 const FETCH_DATA = 'FETCH_DATA';
 
-const handleError = (payload) => ({
+const fetchData = (payload) => ({
   type: FETCH_DATA,
   payload,
 
@@ -10,7 +10,7 @@ const handleError = (payload) => ({
 
 const HANDLE_ERROR = 'HANDLE_ERROR';
 
-const fetchData = (payload) => ({
+const handleError = (payload) => ({
   type: HANDLE_ERROR,
   payload,
 
